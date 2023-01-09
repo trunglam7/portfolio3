@@ -37,6 +37,18 @@ const Projects = () => {
         <h2>Other Projects</h2>
         <div className='other-grid'>
 
+          <a className='project-section' href='https://trunglam7.github.io/stock-fish-trader/' target='_blank' rel="noreferrer">
+            <div className='underline'></div>
+            <h2>Stocks Fish Trader</h2>
+            <p>Tools: HTML, CSS, Javascript</p>
+            <p>A project inspired by an online YouTube video, “I Gave My Goldfish $50000 to Trade Stocks,” 
+              this project is a simulation of a goldfish that picks a stock for you to buy. 
+              The stocks are pulled from an API and given a time duration inputted by the user, whichever side of the tank, 
+              where each side represents a stock, the goldfish spends most of its time on, that stock wins.
+            </p>
+            <div className='underline'></div>
+          </a>
+
           <a className='project-section' href='https://trunglam7.github.io/pokemon-randomizer/' target='_blank' rel="noreferrer">
             <div className='underline'></div>
             <h2>Pokemon Team Randomizer</h2>
@@ -60,23 +72,13 @@ const Projects = () => {
             <div className='underline'></div>
           </a>
 
-          <a className='project-section' href='https://trunglam7.github.io/login_sim_encryption/' target='_blank' rel="noreferrer">
+        <a className='project-section' href='https://trunglam7.github.io/login_sim_encryption/' target='_blank' rel="noreferrer">
           <div className='underline'></div>
           <h2>Login Simulation with Salted MD5 Encryption</h2>
           <p>Tools: HTML, CSS, Javascript</p>
           <p>A simple login simulation that demonstrates how a salted MD5 encryption works on a password.
             This simulation utilizes a blueimp-md5 node module to encrypt the password, along with a randomly generated
             8 character salt.
-          </p>
-          <div className='underline'></div>
-        </a>
-
-        <a className='project-section' href='https://trunglam7.github.io/pokemon-app/' target='_blank' rel="noreferrer">
-          <div className='underline'></div>
-          <h2>Pokemon Pagination</h2>
-          <p>Tools: HTML, CSS, Javascript, React.js</p>
-          <p>Using a REST API from pokeapi.co, this web application is a simple pagination of the entire Pokemon database,
-            which is displayed with their names, image, and type.
           </p>
           <div className='underline'></div>
         </a>

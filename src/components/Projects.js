@@ -16,7 +16,7 @@ const Projects = () => {
     }
     }).then((response) => {
       setLoading(false);
-      response.json().then((json) => setSiteList(json.filter(arr => arr.name !== 'trunglam7')));
+      response.json().then((json) => setSiteList(json.filter(arr => arr.name !== 'trunglam7' && arr.name !== 'puptop')));
     }).catch((error) => {
       console.log(error);
     })
